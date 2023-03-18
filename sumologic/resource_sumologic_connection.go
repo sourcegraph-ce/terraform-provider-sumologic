@@ -3,7 +3,7 @@ package sumologic
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
