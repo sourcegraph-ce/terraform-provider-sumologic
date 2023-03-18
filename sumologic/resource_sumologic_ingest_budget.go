@@ -3,7 +3,7 @@ package sumologic
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceSumologicIngestBudget() *schema.Resource {
